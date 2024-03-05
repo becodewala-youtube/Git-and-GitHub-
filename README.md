@@ -44,7 +44,7 @@
  ```bash
   git status  
 ```
-## 5) Staging Area
+## 5) Staging Area💹
 
 - means area where we hold changes before commit
 
@@ -78,4 +78,51 @@
 - To keep all files in staging area
  ```bash
   git add .(dot) 
+```
+- To comeback to initial commit
+ ```bash
+  git checkout filepath/branchname 
+```
+- If we want to go again at same place 
+ ```bash
+  git checkout master 
+```
+## 6) Master branch 🧑‍🏫
+- master branch is the main branch where we can make many branches
+- Now we will create an branch
+ ```bash
+  git branch vikash
+```
+- To check how many branches
+ ```bash
+  git branch 
+```
+- Now we have two branch vikash and master
+- If we want to switch on vikash branch
+  ```bash
+  git checkout vikash
+```
+- Another method to create branch
+ ```bash
+  git checkout -b <branch_name>
+```
+- Now we will create third file multily.html, now we will check status
+ ```bash
+  git status 
+```
+- It will show untracked files multiply.html, so we will add for track 
+ ```bash
+  git add multiply.html 
+```
+- then we have commit a message
+ ```bash
+  git commit -m " write some meaningfull message"
+```
+- Now We will switch to vikash branch
+ ```bash
+  git checkout vikash 
+```
+- But here vikash branch don't know that we have created a new file(multily.html), so Now we will merge to vikash branch
+ ```bash
+  git merge vikash/multiply
 ```
