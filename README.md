@@ -44,6 +44,10 @@
  ```bash
   git status  
 ```
+- retrieve an entire repository from a hosted location via URL
+ ```bash
+  git clone URL  
+```
 ## 4) Staging Area💹
 
 - means area where we hold changes before commit
