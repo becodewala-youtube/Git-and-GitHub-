@@ -26,7 +26,7 @@
  ```bash
   cd letStart  
 ```
-## 4) Repository
+## 3) Repository
 - means, a project that can be track with the help of git
 - If we want to make this folder an repo the we do
  ```bash
@@ -44,7 +44,7 @@
  ```bash
   git status  
 ```
-## 5) Staging Area💹
+## 4) Staging Area💹
 
 - means area where we hold changes before commit
 
@@ -87,7 +87,7 @@
  ```bash
   git checkout master 
 ```
-## 6) Master branch 🧑‍🏫
+## 5) Master branch 🧑‍🏫
 - master branch is the main branch where we can make many branches
 - Now we will create an branch
  ```bash
