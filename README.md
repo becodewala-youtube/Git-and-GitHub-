@@ -130,3 +130,67 @@
  ```bash
   git merge vikash/multiply
 ```
+## 6) Other Important Command 🧑‍🏫
+- unstage a file while retaining the changes in working directory.
+ ```bash
+  git reset FILE
+```
+- diff of what is changed but not staged.
+ ```bash
+  git diff
+```
+- diff of what is staged but not yet committed.
+ ```bash
+  git diff --staged
+```
+- delete the file from project and stage the removal for commit.
+ ```bash
+  git rm FILE
+```
+- change an existing file path and stage the move.
+ ```bash
+  git mv existing-path new-path
+```
+- show all commit logs with indication of any paths that moved.
+ ```bash
+  git log --stat -M
+```
+- add a git URL as an alias.
+ ```bash
+  git remote add [alias] [URL]
+```
+- fetch down all the branches from that Git remote.
+ ```bash
+  git fetch [alias]
+
+```
+- merge a remote branch into your current branch to bring it up to date.
+ ```bash
+  git merge [alias]/[branch]
+```
+- Transmit local branch commits to the remote repository branch.
+ ```bash
+  git push [alias] [branch]
+
+```
+- fetch and merge any commits from the tracking remote branch.
+
+ ```bash
+  git pull
+
+```
+- clear staging area, rewrite working tree from specified commit.
+ ```bash
+  git reset --hard [commit]
+
+```
+- Save modified and staged changes.
+ ```bash
+  git stash
+
+```
+- list stack-order of stashed file changes.
+ ```bash
+  git stash list
+
+```
